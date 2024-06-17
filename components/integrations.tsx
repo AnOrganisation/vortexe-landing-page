@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ChatGPT from "@/public/images/ChatGPT.svg";
+import ChatGPT from "@/public/images/ChatGpt.svg";
 import HuggingFace from "@/public/images/HuggingFace.svg";
 import Kaggle from "@/public/images/Kaggle.svg";
 import Midjourney from "@/public/images/Midjourney.svg";
