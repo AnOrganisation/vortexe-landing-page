@@ -60,7 +60,7 @@ export default function Header({ nav = true }: { nav?: boolean }) {
               <ul className="flex flex-wrap items-center justify-end grow">
                 <li>
                   <Link
-                    className="flex items-center px-3 py-2 font-medium transition duration-150 ease-in-out text-slate-500 hover:text-slate-300 lg:px-5"
+                    className="flex items-center hidden px-3 py-2 font-medium transition duration-150 ease-in-out text-slate-500 hover:text-slate-300 lg:px-5"
                     href="/signin"
                   >
                     Sign in
