@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Home - NexusAI",
-  description: "Nexus Homepage",
+  title: "Home - Vortexe",
+  description: "Vortexe Homepage",
 };
 
 import Hero from "@/components/hero";
