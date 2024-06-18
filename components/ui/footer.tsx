@@ -1,17 +1,24 @@
-import Link from 'next/link'
-
+import Link from "next/link";
+import VortexLogo from "@/public/images/VortexeLogo.svg";
+import Image from "next/image";
 export default function Footer() {
   return (
     <footer>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="max-w-6xl px-4 mx-auto sm:px-6">
         {/* Blocks */}
-        <div className="grid sm:grid-cols-12 lg:grid-cols-10 gap-8 py-8 md:py-12 border-t border-slate-800">
+        <div className="grid gap-8 py-8 border-t sm:grid-cols-12 lg:grid-cols-10 md:py-12 border-slate-800">
           {/* 1st block */}
           <div className="sm:col-span-12 lg:col-span-2 lg:max-w-xs">
             <div className="mb-2">
               {/* Logo */}
-              <Link className="inline-flex" href="/" aria-label="Cruip">
-                <svg className="w-8 h-8" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+              <Link className="inline-flex" href="/" aria-label="Vortexe">
+                <Image
+                  src={VortexLogo}
+                  alt="vortexe ai logo"
+                  width={36}
+                  height={26}
+                />
+                {/* <svg className="w-8 h-8" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
                   <defs>
                     <linearGradient x1="0%" y1="32.443%" x2="104.18%" y2="50%" id="flogo-a">
                       <stop stopColor="#FFF" stopOpacity=".299" offset="0%" />
@@ -28,31 +35,31 @@ export default function Footer() {
                     <path fillOpacity=".64" fill="url(#flogo-a)" d="M16 13 0 23l16 9 16-9z" />
                     <path fill="url(#flogo-b)" d="M16 0 0 9.25l16 9.25 15.999-9.25z" />
                   </g>
-                </svg>
+                </svg> */}
               </Link>
             </div>
           </div>
           {/* 2nd block */}
           {/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-xs text-slate-200 font-semibold uppercase underline mb-3">Products</h6>
-            <ul className="text-sm space-y-2">
+            <h6 className="mb-3 text-xs font-semibold underline uppercase text-slate-200">Products</h6>
+            <ul className="space-y-2 text-sm">
               <li>
-                <a className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">
+                <a className="transition duration-150 ease-in-out text-slate-500 hover:text-slate-300" href="#0">
                   Cube Manage
                 </a>
               </li>
               <li>
-                <a className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">
+                <a className="transition duration-150 ease-in-out text-slate-500 hover:text-slate-300" href="#0">
                   Cube Analyse
                 </a>
               </li>
               <li>
-                <a className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">
+                <a className="transition duration-150 ease-in-out text-slate-500 hover:text-slate-300" href="#0">
                   Cube Launch
                 </a>
               </li>
               <li>
-                <a className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">
+                <a className="transition duration-150 ease-in-out text-slate-500 hover:text-slate-300" href="#0">
                   Experimentation
                 </a>
               </li>
@@ -60,25 +67,25 @@ export default function Footer() {
           </div> */}
           {/* 3rd block */}
           {/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-xs text-slate-200 font-semibold uppercase underline mb-3">Resources</h6>
-            <ul className="text-sm space-y-2">
+            <h6 className="mb-3 text-xs font-semibold underline uppercase text-slate-200">Resources</h6>
+            <ul className="space-y-2 text-sm">
               <li>
-                <a className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">
+                <a className="transition duration-150 ease-in-out text-slate-500 hover:text-slate-300" href="#0">
                   Blog
                 </a>
               </li>
               <li>
-                <a className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">
+                <a className="transition duration-150 ease-in-out text-slate-500 hover:text-slate-300" href="#0">
                   Cheat Sheet
                 </a>
               </li>
               <li>
-                <a className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">
+                <a className="transition duration-150 ease-in-out text-slate-500 hover:text-slate-300" href="#0">
                   Channel Partners
                 </a>
               </li>
               <li>
-                <a className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">
+                <a className="transition duration-150 ease-in-out text-slate-500 hover:text-slate-300" href="#0">
                   Affiliate Program
                 </a>
               </li>
@@ -86,25 +93,25 @@ export default function Footer() {
           </div> */}
           {/* 4th block */}
           {/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-xs text-slate-200 font-semibold uppercase underline mb-3">Projects</h6>
-            <ul className="text-sm space-y-2">
+            <h6 className="mb-3 text-xs font-semibold underline uppercase text-slate-200">Projects</h6>
+            <ul className="space-y-2 text-sm">
               <li>
-                <a className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">
+                <a className="transition duration-150 ease-in-out text-slate-500 hover:text-slate-300" href="#0">
                   Session Recording
                 </a>
               </li>
               <li>
-                <a className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">
+                <a className="transition duration-150 ease-in-out text-slate-500 hover:text-slate-300" href="#0">
                   Feature Flags
                 </a>
               </li>
               <li>
-                <a className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">
+                <a className="transition duration-150 ease-in-out text-slate-500 hover:text-slate-300" href="#0">
                   Heatmaps
                 </a>
               </li>
               <li>
-                <a className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">
+                <a className="transition duration-150 ease-in-out text-slate-500 hover:text-slate-300" href="#0">
                   Correlation Analysis
                 </a>
               </li>
@@ -112,20 +119,20 @@ export default function Footer() {
           </div> */}
           {/* 5th block */}
           {/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-xs text-slate-200 font-semibold uppercase underline mb-3">Company</h6>
-            <ul className="text-sm space-y-2">
+            <h6 className="mb-3 text-xs font-semibold underline uppercase text-slate-200">Company</h6>
+            <ul className="space-y-2 text-sm">
               <li>
-                <a className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">
+                <a className="transition duration-150 ease-in-out text-slate-500 hover:text-slate-300" href="#0">
                   About Us
                 </a>
               </li>
               <li>
-                <a className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">
+                <a className="transition duration-150 ease-in-out text-slate-500 hover:text-slate-300" href="#0">
                   Our Story
                 </a>
               </li>
               <li>
-                <a className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">
+                <a className="transition duration-150 ease-in-out text-slate-500 hover:text-slate-300" href="#0">
                   Work With Us
                 </a>
               </li>
@@ -133,12 +140,12 @@ export default function Footer() {
           </div> */}
         </div>
         {/* Bottom area */}
-        <div className="md:flex md:items-center md:justify-between pb-4 md:pb-8">
+        <div className="pb-4 md:flex md:items-center md:justify-between md:pb-8">
           {/* Social links */}
           {/* <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
             <li>
               <a
-                className="flex justify-center items-center text-indigo-500 hover:text-slate-300 transition duration-150 ease-in-out"
+                className="flex items-center justify-center text-indigo-500 transition duration-150 ease-in-out hover:text-slate-300"
                 href="#0"
                 aria-label="Twitter"
               >
@@ -149,7 +156,7 @@ export default function Footer() {
             </li>
             <li className="ml-2">
               <a
-                className="flex justify-center items-center text-indigo-500 hover:text-slate-300 transition duration-150 ease-in-out"
+                className="flex items-center justify-center text-indigo-500 transition duration-150 ease-in-out hover:text-slate-300"
                 href="#0"
                 aria-label="Medium"
               >
@@ -160,7 +167,7 @@ export default function Footer() {
             </li>
             <li className="ml-2">
               <a
-                className="flex justify-center items-center text-indigo-500 hover:text-slate-300 transition duration-150 ease-in-out"
+                className="flex items-center justify-center text-indigo-500 transition duration-150 ease-in-out hover:text-slate-300"
                 href="#0"
                 aria-label="Github"
               >
@@ -172,10 +179,22 @@ export default function Footer() {
           </ul> */}
           {/* Links */}
           <div className="text-sm text-slate-600">
-            <a className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">Terms</a> · <a className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">Privacy Policy</a>
+            <a
+              className="transition duration-150 ease-in-out text-slate-500 hover:text-slate-300"
+              href="#0"
+            >
+              Terms
+            </a>{" "}
+            ·{" "}
+            <a
+              className="transition duration-150 ease-in-out text-slate-500 hover:text-slate-300"
+              href="#0"
+            >
+              Privacy Policy
+            </a>
           </div>
         </div>
       </div>
     </footer>
-  )
+  );
 }

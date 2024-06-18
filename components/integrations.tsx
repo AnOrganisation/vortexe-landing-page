@@ -273,7 +273,7 @@ export default function Integrations() {
               {/* Circle */}
               <div className="flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-t from-slate-800 to-slate-900">
                 {/* Icon */}
-                <Image src={ChatGPT} width={36} height={46} alt="Icon 01" />
+                <Image src={ChatGPT} width={46} height={56} alt="Icon 01" />
               </div>
             </div>
             <div
