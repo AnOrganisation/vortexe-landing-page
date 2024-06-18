@@ -97,7 +97,17 @@ export default function SignUp() {
                 Let's talk
               </div>
               {/* Form */}
-              <form>
+              <div
+                className="calendly-inline-widget"
+                data-url="https://calendly.com/divyansh-vortexeai?background_color=0f172a&text_color=dadee2&primary_color=6366f1"
+                style={{ minWidth: "320px", height: "700px" }}
+              ></div>
+              <script
+                type="text/javascript"
+                src="https://assets.calendly.com/assets/external/widget.js"
+                async
+              ></script>
+              {/* <form>
                 <div className="space-y-4">
                   <div className="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
                     <div className="sm:w-1/2">
@@ -199,7 +209,7 @@ export default function SignUp() {
                     </span>
                   </button>
                 </div>
-              </form>
+              </form> */}
             </div>
           </div>
         </div>
