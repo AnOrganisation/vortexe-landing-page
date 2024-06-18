@@ -1,5 +1,6 @@
 import Link from "next/link";
-
+import VortexLogo from "@/public/images/VortexeLogo.svg";
+import Image from "next/image";
 export default function Header({ nav = true }: { nav?: boolean }) {
   return (
     <header className="absolute z-30 w-full">
@@ -10,7 +11,13 @@ export default function Header({ nav = true }: { nav?: boolean }) {
             <p className="mx-3 text-3xl font-semibold">Vortexe</p>
             {/* Logo */}
             <Link className="block" href="/" aria-label="Cruip">
-              <svg
+              <Image
+                src={VortexLogo}
+                alt="vortexe ai logo"
+                width={36}
+                height={26}
+              />
+              {/* <svg
                 className="w-8 h-8"
                 viewBox="0 0 32 32"
                 xmlns="http://www.w3.org/2000/svg"
@@ -50,7 +57,7 @@ export default function Header({ nav = true }: { nav?: boolean }) {
                     d="M16 0 0 9.25l16 9.25 15.999-9.25z"
                   />
                 </g>
-              </svg>
+              </svg> */}
             </Link>
           </div>
           {/* Desktop navigation */}
