@@ -15,7 +15,7 @@ export default function Calendly() {
   return (
     <div
       className="calendly-inline-widget"
-      data-url="https://calendly.com/vortexeai/introduction?background_color=0f172a&text_color=ffffff&primary_color=2f3577"
+      data-url="https://calendly.com/vortexeai/introduction?background_color=0f172a&text_color=ffffff&primary_color=6a6ded"
       style={{ minWidth: "320px", height: "700px" }}
     ></div>
     // <div
