@@ -15,8 +15,13 @@ export default function Calendly() {
   return (
     <div
       className="calendly-inline-widget"
-      data-url="https://calendly.com/divyansh-vortexeai?background_color=0f172a&text_color=dadee2&primary_color=6366f1"
+      data-url="https://calendly.com/vortexeai/introduction?background_color=0f172a&text_color=ffffff&primary_color=2f3577"
       style={{ minWidth: "320px", height: "700px" }}
     ></div>
+    // <div
+    //   className="calendly-inline-widget"
+    //   data-url="https://calendly.com/divyansh-vortexeai?background_color=0f172a&text_color=dadee2&primary_color=6366f1"
+    //   style={{ minWidth: "320px", height: "700px" }}
+    // ></div>
   );
 }
