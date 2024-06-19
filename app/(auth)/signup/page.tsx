@@ -1,13 +1,14 @@
-export const metadata = {
-  title: "Sign Up - Cube",
-  description: "Page description",
-};
-
 import Image from "next/image";
 import Avatar01 from "@/public/images/avatar-01.jpg";
 import Avatar02 from "@/public/images/avatar-02.jpg";
 import Avatar03 from "@/public/images/avatar-03.jpg";
 import Avatar04 from "@/public/images/avatar-04.jpg";
+import Calendly from "./calendly";
+
+export const metadata = {
+  title: "Sign Up - Vortexe",
+  description: "Page description",
+};
 
 export default function SignUp() {
   return (
@@ -96,120 +97,13 @@ export default function SignUp() {
               <div className="mb-6 text-xl font-bold font-hkgrotesk">
                 Let's talk
               </div>
+              <Calendly />
               {/* Form */}
-              <div
+              {/* <div
                 className="calendly-inline-widget"
                 data-url="https://calendly.com/divyansh-vortexeai?background_color=0f172a&text_color=dadee2&primary_color=6366f1"
                 style={{ minWidth: "320px", height: "700px" }}
-              ></div>
-              <script
-                type="text/javascript"
-                src="https://assets.calendly.com/assets/external/widget.js"
-                async
-              ></script>
-              {/* <form>
-                <div className="space-y-4">
-                  <div className="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
-                    <div className="sm:w-1/2">
-                      <label
-                        className="block mb-1 text-sm font-medium text-slate-400"
-                        htmlFor="name"
-                      >
-                        Name <span className="text-rose-500">*</span>
-                      </label>
-                      <input
-                        id="name"
-                        className="w-full py-2 text-sm form-input"
-                        type="text"
-                        required
-                      />
-                    </div>
-                    <div className="sm:w-1/2">
-                      <label
-                        className="block mb-1 text-sm font-medium text-slate-400"
-                        htmlFor="surname"
-                      >
-                        Surname <span className="text-rose-500">*</span>
-                      </label>
-                      <input
-                        id="surname"
-                        className="w-full py-2 text-sm form-input"
-                        type="text"
-                        required
-                      />
-                    </div>
-                  </div>
-                  <div>
-                    <label
-                      className="block mb-1 text-sm font-medium text-slate-400"
-                      htmlFor="email"
-                    >
-                      Email <span className="text-rose-500">*</span>
-                    </label>
-                    <input
-                      id="email"
-                      className="w-full py-2 text-sm form-input"
-                      type="email"
-                      required
-                    />
-                  </div>
-                  <div>
-                    <label
-                      className="block mb-1 text-sm font-medium text-slate-400"
-                      htmlFor="phone"
-                    >
-                      Phone <span className="text-rose-500">*</span>
-                    </label>
-                    <input
-                      id="phone"
-                      className="w-full py-2 text-sm form-input"
-                      type="text"
-                      required
-                    />
-                  </div>
-                  <div>
-                    <label
-                      className="block mb-1 text-sm font-medium text-slate-400"
-                      htmlFor="referrer"
-                    >
-                      How did you hear about us?{" "}
-                      <span className="text-rose-500">*</span>
-                    </label>
-                    <select
-                      id="referrer"
-                      className="w-full py-2 form-select"
-                      required
-                    >
-                      <option>Twitter</option>
-                      <option>Medium</option>
-                      <option>GitHub</option>
-                    </select>
-                  </div>
-                  <div>
-                    <label
-                      className="block mb-1 text-sm font-medium text-slate-400"
-                      htmlFor="message"
-                    >
-                      How can we help with?{" "}
-                      <span className="text-rose-500">*</span>
-                    </label>
-                    <textarea
-                      id="message"
-                      className="w-full py-2 text-sm form-textarea"
-                      rows={4}
-                      required
-                    />
-                  </div>
-                </div>
-                <div className="mt-6">
-                  <button className="w-full text-sm text-white bg-indigo-500 shadow-sm btn-sm hover:bg-indigo-600 group">
-                    Request Demo{" "}
-                    <span className="tracking-normal text-sky-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
-                      -&gt;
-                    </span>
-                  </button>
-                </div>
-              </form> */}
+              ></div> */}
             </div>
           </div>
         </div>
