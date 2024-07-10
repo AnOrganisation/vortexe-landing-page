@@ -9,17 +9,16 @@ export default function Hero() {
       <div className="relative max-w-6xl px-4 mx-auto sm:px-6">
         <div className="pt-32 md:pt-40">
           {/* Hero content */}
-          <div className="max-w-3xl mx-auto text-center">
+          <div className="max-w-5xl mx-auto text-center">
             <h1 className="mb-6 h1 font-hkgrotesk" data-aos="fade-up">
-              AI for Everyone
+            AI for Small Businesses
             </h1>
             <p
               className="px-14 text-xl text-slate-500 mb-10 "
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              A familiar and user friendly workspace, making the latest
-              AI tools accessible for everyday users.
+              Empowering small businesses with cutting-edge AI tools all in one user-friendly workspace.
             </p>
             <div
               className="max-w-xs mx-auto space-y-4 sm:max-w-none sm:inline-flex sm:justify-center sm:space-y-0 sm:space-x-4"
