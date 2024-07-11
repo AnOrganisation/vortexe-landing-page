@@ -13,15 +13,19 @@ export default function Calendly() {
     };
   }, []);
   return (
-    <div
-      className="calendly-inline-widget"
-      data-url="https://calendly.com/vortexeai/introduction?background_color=0f172a&text_color=ffffff&primary_color=6a6ded"
-      style={{ minWidth: "320px", height: "700px" }}
-    ></div>
-    // <div
-    //   className="calendly-inline-widget"
-    //   data-url="https://calendly.com/divyansh-vortexeai?background_color=0f172a&text_color=dadee2&primary_color=6366f1"
-    //   style={{ minWidth: "320px", height: "700px" }}
-    // ></div>
+    //<!-- Calendly inline widget begin -->
+    <>
+      <div
+        className="calendly-inline-widget"
+        data-url="https://calendly.com/vortexeai/introduction-1"
+        style={{ minWidth: "320px", height: "700px" }}
+      ></div>
+      {/* <script
+        type="text/javascript"
+        src="https://assets.calendly.com/assets/external/widget.js"
+        async
+      ></script> */}
+    </>
+    //<!-- Calendly inline widget end -->
   );
 }
