@@ -14,12 +14,12 @@ export default function Hero() {
               AI for Everyone
             </h1>
             <p
-              className="px-14 text-xl text-slate-500 mb-10 "
+              className="mb-10 text-xl px-14 text-slate-500 "
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              A familiar and user friendly workspace, making the latest
-              AI tools accessible for everyday users.
+              A familiar and user friendly workspace, making the latest AI tools
+              accessible for everyday users.
             </p>
             <div
               className="max-w-xs mx-auto space-y-4 sm:max-w-none sm:inline-flex sm:justify-center sm:space-y-0 sm:space-x-4"
