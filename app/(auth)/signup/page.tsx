@@ -99,11 +99,6 @@ export default function SignUp() {
               </div>
               <Calendly />
               {/* Form */}
-              {/* <div
-                className="calendly-inline-widget"
-                data-url="https://calendly.com/divyansh-vortexeai?background_color=0f172a&text_color=dadee2&primary_color=6366f1"
-                style={{ minWidth: "320px", height: "700px" }}
-              ></div> */}
             </div>
           </div>
         </div>
