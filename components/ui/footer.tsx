@@ -1,6 +1,7 @@
 import Link from "next/link";
-import VortexLogo from "@/public/images/VortexeLogo.svg";
 import Image from "next/image";
+import VortexLogo from "@/public/images/VortexeLogo.svg";
+
 export default function Footer() {
   return (
     <footer>
@@ -18,138 +19,26 @@ export default function Footer() {
                   width={36}
                   height={26}
                 />
-                {/* <svg className="w-8 h-8" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                  <defs>
-                    <linearGradient x1="0%" y1="32.443%" x2="104.18%" y2="50%" id="flogo-a">
-                      <stop stopColor="#FFF" stopOpacity=".299" offset="0%" />
-                      <stop stopColor="#7587E4" stopOpacity="0" offset="100%" />
-                    </linearGradient>
-                    <linearGradient x1="18.591%" y1="0%" x2="100%" y2="100%" id="flogo-b">
-                      <stop stopColor="#818CF8" offset="0%" />
-                      <stop stopColor="#C7D2FE" offset="100%" />
-                    </linearGradient>
-                  </defs>
-                  <g fill="none" fillRule="evenodd">
-                    <path fill="#3730A3" d="M16 18.5V32l15.999-9.25V9.25z" />
-                    <path fill="#4F46E5" d="m0 23 16 9V18.501L0 9.251z" />
-                    <path fillOpacity=".64" fill="url(#flogo-a)" d="M16 13 0 23l16 9 16-9z" />
-                    <path fill="url(#flogo-b)" d="M16 0 0 9.25l16 9.25 15.999-9.25z" />
-                  </g>
-                </svg> */}
               </Link>
             </div>
           </div>
-          {/* 2nd block */}
-          {/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="mb-3 text-xs font-semibold underline uppercase text-slate-200">Products</h6>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <a className="transition duration-150 ease-in-out text-slate-500 hover:text-slate-300" href="#0">
-                  Cube Manage
-                </a>
-              </li>
-              <li>
-                <a className="transition duration-150 ease-in-out text-slate-500 hover:text-slate-300" href="#0">
-                  Cube Analyse
-                </a>
-              </li>
-              <li>
-                <a className="transition duration-150 ease-in-out text-slate-500 hover:text-slate-300" href="#0">
-                  Cube Launch
-                </a>
-              </li>
-              <li>
-                <a className="transition duration-150 ease-in-out text-slate-500 hover:text-slate-300" href="#0">
-                  Experimentation
-                </a>
-              </li>
-            </ul>
-          </div> */}
-          {/* 3rd block */}
-          {/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="mb-3 text-xs font-semibold underline uppercase text-slate-200">Resources</h6>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <a className="transition duration-150 ease-in-out text-slate-500 hover:text-slate-300" href="#0">
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a className="transition duration-150 ease-in-out text-slate-500 hover:text-slate-300" href="#0">
-                  Cheat Sheet
-                </a>
-              </li>
-              <li>
-                <a className="transition duration-150 ease-in-out text-slate-500 hover:text-slate-300" href="#0">
-                  Channel Partners
-                </a>
-              </li>
-              <li>
-                <a className="transition duration-150 ease-in-out text-slate-500 hover:text-slate-300" href="#0">
-                  Affiliate Program
-                </a>
-              </li>
-            </ul>
-          </div> */}
-          {/* 4th block */}
-          {/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="mb-3 text-xs font-semibold underline uppercase text-slate-200">Projects</h6>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <a className="transition duration-150 ease-in-out text-slate-500 hover:text-slate-300" href="#0">
-                  Session Recording
-                </a>
-              </li>
-              <li>
-                <a className="transition duration-150 ease-in-out text-slate-500 hover:text-slate-300" href="#0">
-                  Feature Flags
-                </a>
-              </li>
-              <li>
-                <a className="transition duration-150 ease-in-out text-slate-500 hover:text-slate-300" href="#0">
-                  Heatmaps
-                </a>
-              </li>
-              <li>
-                <a className="transition duration-150 ease-in-out text-slate-500 hover:text-slate-300" href="#0">
-                  Correlation Analysis
-                </a>
-              </li>
-            </ul>
-          </div> */}
-          {/* 5th block */}
-          {/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="mb-3 text-xs font-semibold underline uppercase text-slate-200">Company</h6>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <a className="transition duration-150 ease-in-out text-slate-500 hover:text-slate-300" href="#0">
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a className="transition duration-150 ease-in-out text-slate-500 hover:text-slate-300" href="#0">
-                  Our Story
-                </a>
-              </li>
-              <li>
-                <a className="transition duration-150 ease-in-out text-slate-500 hover:text-slate-300" href="#0">
-                  Work With Us
-                </a>
-              </li>
-            </ul>
-          </div> */}
         </div>
         {/* Bottom area */}
         <div className="pb-4 md:flex md:items-center md:justify-between md:pb-8">
           {/* Social links */}
-          {/* <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
+          <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
             <li>
               <a
                 className="flex items-center justify-center text-indigo-500 transition duration-150 ease-in-out hover:text-slate-300"
-                href="#0"
+                href="https://x.com/VortexeAI"
+                target="_blank"
                 aria-label="Twitter"
               >
-                <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                <svg
+                  className="w-8 h-8 fill-current"
+                  viewBox="0 0 32 32"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
                   <path d="m13.063 9 3.495 4.475L20.601 9h2.454l-5.359 5.931L24 23h-4.938l-3.866-4.893L10.771 23H8.316l5.735-6.342L8 9h5.063Zm-.74 1.347h-1.457l8.875 11.232h1.36l-8.778-11.232Z" />
                 </svg>
               </a>
@@ -157,38 +46,60 @@ export default function Footer() {
             <li className="ml-2">
               <a
                 className="flex items-center justify-center text-indigo-500 transition duration-150 ease-in-out hover:text-slate-300"
-                href="#0"
-                aria-label="Medium"
+                href="https://www.instagram.com/vortexe.ai/"
+                target="_blank"
+                aria-label="Instagram"
               >
-                <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M23 8H9a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1Zm-1.708 3.791-.858.823a.251.251 0 0 0-.1.241V18.9a.251.251 0 0 0 .1.241l.838.823v.181h-4.215v-.181l.868-.843c.085-.085.085-.11.085-.241v-4.887l-2.41 6.131h-.329l-2.81-6.13V18.1a.567.567 0 0 0 .156.472l1.129 1.37v.181h-3.2v-.181l1.129-1.37a.547.547 0 0 0 .146-.472v-4.749a.416.416 0 0 0-.138-.351l-1-1.209v-.181H13.8l2.4 5.283 2.122-5.283h2.971l-.001.181Z" />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="w-4 h-8 fill-current bi bi-instagram"
+                  viewBox="0 0 16 16"
+                >
+                  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
                 </svg>
               </a>
             </li>
             <li className="ml-2">
               <a
-                className="flex items-center justify-center text-indigo-500 transition duration-150 ease-in-out hover:text-slate-300"
-                href="#0"
-                aria-label="Github"
+                className="flex items-center justify-center h-8 text-indigo-500 transition duration-150 ease-in-out hover:text-slate-300"
+                href="https://www.tiktok.com/@vortexe.ai?is_from_webapp=1&sender_device=pc"
+                target="_blank"
+                aria-label="TikTok"
               >
-                <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M16 8.2c-4.4 0-8 3.6-8 8 0 3.5 2.3 6.5 5.5 7.6.4.1.5-.2.5-.4V22c-2.2.5-2.7-1-2.7-1-.4-.9-.9-1.2-.9-1.2-.7-.5.1-.5.1-.5.8.1 1.2.8 1.2.8.7 1.3 1.9.9 2.3.7.1-.5.3-.9.5-1.1-1.8-.2-3.6-.9-3.6-4 0-.9.3-1.6.8-2.1-.1-.2-.4-1 .1-2.1 0 0 .7-.2 2.2.8.6-.2 1.3-.3 2-.3s1.4.1 2 .3c1.5-1 2.2-.8 2.2-.8.4 1.1.2 1.9.1 2.1.5.6.8 1.3.8 2.1 0 3.1-1.9 3.7-3.7 3.9.3.4.6.9.6 1.6v2.2c0 .2.1.5.6.4 3.2-1.1 5.5-4.1 5.5-7.6-.1-4.4-3.7-8-8.1-8z" />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 64 64"
+                  className="w-6 h-8 fill-current"
+                  strokeWidth={10}
+                >
+                  <path d="M33 7a1 1 0 0 0-1 1v34c0 2.76-2.24 5-5 5s-5-2.24-5-5 2.24-5 5-5a1 1 0 0 0 1-1v-8a1 1 0 0 0-1-1c-8.28 0-15 6.721-15 15 0 8.28 6.72 15 15 15 8.279 0 15-6.72 15-15V25.494A16.927 16.927 0 0 0 49 27h2a1 1 0 0 0 1-1v-8a1 1 0 0 0-1-1h-2c-3.863 0-7-3.137-7-7V8a1 1 0 0 0-1-1zm1 2h6v1c0 4.967 4.033 9 9 9h1v6h-1c-2.731 0-5.292-.73-7.499-2.009a1 1 0 0 0-1.501.866V42c0 7.175-5.825 13-13 13s-13-5.825-13-13c0-6.838 5.292-12.45 12-12.962v6.033c-3.39.486-6 3.405-6 6.93 0 3.862 3.137 7 7 7s7-3.138 7-7z"></path>
                 </svg>
               </a>
             </li>
-          </ul> */}
+            <li className="ml-2">
+              <a
+                className="flex items-center justify-center h-8 text-indigo-500 transition duration-150 ease-in-out hover:text-slate-300"
+                href="mailto:vortexeai@outlook.com"
+                aria-label="Email"
+              >
+                vortexeai@outlook.com
+              </a>
+            </li>
+          </ul>
           {/* Links */}
           <div className="text-sm text-slate-600">
-            <a
+            <Link
               className="transition duration-150 ease-in-out text-slate-500 hover:text-slate-300"
-              href="#0"
+              href="/legal/terms"
+              target="_blank"
             >
               Terms
-            </a>{" "}
+            </Link>{" "}
             ·{" "}
             <a
               className="transition duration-150 ease-in-out text-slate-500 hover:text-slate-300"
-              href="#0"
+              href="/legal/privacypolicy"
+              target="_blank"
             >
               Privacy Policy
             </a>{" "}
