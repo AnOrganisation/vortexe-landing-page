@@ -62,12 +62,11 @@ export default function Features() {
           {/* Section header */}
           <div className="max-w-3xl pb-12 mx-auto text-center md:pb-20">
             <h2 className="mb-4 h2 font-hkgrotesk">
-              Many tools to express your creativity
+            Boost Your Productivity with Our AI-Powered Workspace
             </h2>
             <div className="max-w-2xl mx-auto">
               <p className="text-xl text-slate-500">
-                Access AI tools within a secure, unified workspace with a
-                familiar interface.
+              Access AI tools in a secure, unified workspace with a familiar interface designed for small businesses.
               </p>
             </div>
           </div>
@@ -101,7 +100,7 @@ export default function Features() {
                   </a> */}
                 </div>
               </div>
-              {/* Familiar Interface */}
+              {/* Files */}
               <div className="flex flex-col h-auto p-6 rounded swiper-slide bg-slate-800">
                 <Image
                   className="mb-3"
@@ -112,7 +111,7 @@ export default function Features() {
                 />
                 <div className="grow">
                   <div className="text-xl font-bold font-hkgrotesk">
-                    Familiar Interface
+                    Files
                   </div>
                   <div className="mb-3 text-slate-500">
                     Get more done in a workspace that supports all types, from

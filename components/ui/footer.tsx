@@ -102,7 +102,13 @@ export default function Footer() {
               target="_blank"
             >
               Privacy Policy
-            </a>
+            </a>{" "}
+            ·{" "}
+            <a
+              className=" text-slate-500"
+              >
+                © 2024 VortexeAI. All rights reserved.
+              </a>
           </div>
         </div>
       </div>
