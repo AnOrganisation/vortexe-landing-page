@@ -24,7 +24,7 @@ export default function Features02() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-hkgrotesk">Features to help you create your best designs</h2>
+            <h2 className="h2 font-hkgrotesk">Features to help you simplify your daily tasks </h2>
           </div>
           {/* Box */}
           <div className="bg-slate-800 bg-opacity-60 rounded overflow-hidden">
@@ -38,50 +38,52 @@ export default function Features02() {
                         }`}
                       onClick={() => setCategory('1')}
                     >
-                      Everyone
+                      Workflows
                     </button>
                     <button
                       className={`btn-sm px-3 py-1 shadow-sm rounded-full m-1.5 ${category === '2' ? 'text-white bg-indigo-500' : 'text-slate-300 bg-slate-700 hover:bg-slate-600 border-slate-600'
                         }`}
                       onClick={() => setCategory('2')}
                     >
-                      Artists
+                      Personal Assistant
                     </button>
                     <button
                       className={`btn-sm px-3 py-1 shadow-sm rounded-full m-1.5 ${category === '3' ? 'text-white bg-indigo-500' : 'text-slate-300 bg-slate-700 hover:bg-slate-600 border-slate-600'
                         }`}
                       onClick={() => setCategory('3')}
                     >
-                      Organizations
+                      Workspace
                     </button>
                   </div>
                 </div>
                 {/* Content */}
                 <div>
                   <div className={`${category !== '1' && 'hidden'}`}>
-                    <h3 className="h3 font-hkgrotesk mb-2">Easy to Use AI</h3>
-                    <div className="text-lg text-slate-500">
-                    Say goodbye to the hassle of navigating complex AI chatboxes. With just a click, you can achieve quick and reliable results. 
-                    Our intuitive interface makes powerful AI tools accessible without the need for extensive learning. 
-                    Now, you can effortlessly harness the AI capabilities you've always wanted, all within a familiar and user-friendly platform.
+                    <h3 className="h3 font-hkgrotesk mb-2">Streamline Tasks</h3>
+                    <div className="text-lg text-slate-350">
+                    Automate tedious tasks with Vortexe AI, designed for small businesses. No need to learn AI or choose the right tools—we do it for you. 
+                    Simply select tasks like crafting marketing pitches, generating personalized emails, scheduling content creation, or simply summarizing documentation. 
+                    Our unified workspace lets you harness AI workflows to streamline operations, allowing you to focus on what you do best,
+                     be it content creation or product development.
                     </div>
                   </div>
                   <div className={`${category !== '2' && 'hidden'}`}>
                     <h3 className="h3 font-hkgrotesk mb-2">Your Time is Valuable</h3>
-                    <div className="text-lg text-slate-500">
-                    Eliminate artist's block and enhance your workflow with our all-in-one AI tools. 
-                    Store and manage your art concepts in one convenient workspace, allowing AI to iterate and expand on your ideas. 
-                    Whether you're creating mood boards or design documentations, our platform helps you optimize 
-                    your workflow, reduce administrative tasks, and focus on what you do best—creating stunning visual artwork.
+                    <div className="text-lg text-slate-350">
+                    Your time is valuable, and Vortexe AI ensures you make the most of it. Our workspace organizes all your files in one place, 
+                    making it easy to manage and access your data. With the Vortexe assistant, you can ask questions about your uploaded data, 
+                    turning it into your personal intelligent database. Need to know if you've created content on a specific subject? 
+                    Just ask Vortexe, and it will search through your files to provide the answers you need. Simplify your workflow 
+                    and focus on what matters most with Vortexe AI.
                     </div>
                   </div>
                   <div className={`${category !== '3' && 'hidden'}`}>
-                    <h3 className="h3 font-hkgrotesk mb-2">Streamline Operations</h3>
-                    <div className="text-lg text-slate-500">
-                    Empower your company with essential AI tools that streamline your operations. 
-                    Build a customized pipeline to boost production speed and eliminate redundant tasks, 
-                    maximizing efficiency and productivity. Experience seamless integration and watch your 
-                    business achieve new levels of success with our cutting-edge solutions.
+                    <h3 className="h3 font-hkgrotesk mb-2">Personalized Operations</h3>
+                    <div className="text-lg text-slate-350">
+                    Transform your workflow with Vortexe AI's customizable workspace. Tailor it to fit your business needs by saving files and utilizing AI 
+                    tools directly within the platform. Create multiple workspaces for different projects and use our 
+                    tagging system to keep track of all your data in one spot. Say goodbye to endless folder searches 
+                    and streamline your operations with ease. Customize, organize, and optimize your business with Vortexe AI.
                     </div>
                   </div>
                 </div>
