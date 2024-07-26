@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import HeroImage from "@/public/images/hero-image.png";
+import HeroImage from "@/public/images/Workspace_HeroImage.png";
 
 export default function Hero() {
   return (
@@ -10,15 +10,16 @@ export default function Hero() {
         <div className="pt-32 md:pt-40">
           {/* Hero content */}
           <div className="max-w-5xl mx-auto text-center">
-            <h1 className="mb-6 h1 font-hkgrotesk" data-aos="fade-up">
-            AI for Small Businesses
+            <h1 className="mb-6 text-9xl font-hkgrotesk" data-aos="fade-up">
+              Vortexe<span className="text-[#6366F1]">AI</span>
             </h1>
             <p
-              className="mb-10 text-xl px-14 text-slate-500 "
+              className="mb-10 text-4xl text-[#6366F1] px-14 "
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              Empowering small businesses with cutting-edge AI tools all in one user-friendly workspace.
+              Helping small businesses adapt AI with no learning curve and
+              achieve results in 10 seconds
             </p>
             <div
               className="max-w-xs mx-auto space-y-4 sm:max-w-none sm:inline-flex sm:justify-center sm:space-y-0 sm:space-x-4"

@@ -8,7 +8,6 @@ export default function Header({ nav = true }: { nav?: boolean }) {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Site branding */}
           <div className="flex flex-row mr-4 shrink-0">
-            <p className="mx-3 text-3xl font-semibold">Vortexe</p>
             {/* Logo */}
             <Link className="block" href="/" aria-label="Vortexe">
               <Image
