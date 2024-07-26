@@ -1,12 +1,30 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import Illustration from "@/public/images/features-illustration-02.svg";
 import FeaturesImage from "@/public/images/ActionExample.png";
 
 export default function Features02() {
   const [category, setCategory] = useState<string>("1");
+  const [isLargeScreen, setIsLargeScreen] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsLargeScreen(window.innerWidth >= 768);
+    };
+
+    // Set initial screen size
+    handleResize();
+
+    // Add event listener for window resize
+    window.addEventListener("resize", handleResize);
+
+    // Remove event listener on cleanup
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   return (
     <section className="relative border-t border-slate-800">
@@ -127,8 +145,8 @@ export default function Features02() {
               </div>
               <Image
                 src={FeaturesImage}
-                className="mt-32 mr-10 md:max-w-none"
-                style={{ marginRight: "2.5rem" }}
+                className="mt-32 md:max-w-none"
+                style={{ marginRight: isLargeScreen ? "2.5rem" : "0" }}
                 width="480"
                 height="414"
                 alt="Action"

@@ -10,7 +10,10 @@ export default function Hero() {
         <div className="pt-32 md:pt-40">
           {/* Hero content */}
           <div className="max-w-5xl mx-auto text-center">
-            <h1 className="mb-6 text-9xl font-hkgrotesk" data-aos="fade-up">
+            <h1
+              className="mb-6 text-7xl md:text-9xl font-hkgrotesk"
+              data-aos="fade-up"
+            >
               Vortexe<span className="text-[#6366F1]">AI</span>
             </h1>
             <p
