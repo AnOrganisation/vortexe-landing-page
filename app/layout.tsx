@@ -52,7 +52,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${inter.variable} ${hkgrotesk.variable} font-inter antialiased bg-slate-900 text-slate-200 tracking-tight`}
+        className={`${inter.variable} ${hkgrotesk.variable} font-inter antialiased bg-[#0F0F0F] text-slate-200 tracking-tight`}
       >
         <noscript>
           <iframe

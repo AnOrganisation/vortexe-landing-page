@@ -75,7 +75,7 @@ export default function Features() {
             <div className="swiper-wrapper">
               {/* Carousel items */}
               {/* Workspaces */}
-              <div className="flex flex-col h-auto p-6 rounded swiper-slide bg-slate-800">
+              <div className="flex flex-col h-auto p-6 rounded swiper-slide bg-[#6366F1] bg-opacity-10">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -95,7 +95,7 @@ export default function Features() {
                   <div className="text-xl font-bold font-hkgrotesk">
                     Knowledge Store
                   </div>
-                  <div className="mb-9 text-slate-500">
+                  <div className="text-white mb-9">
                     Upload and organize your files within different workspaces.
                     Vortexe securely saves and analyzes your data, providing
                     intelligent responses to your queries anytime.
@@ -109,7 +109,7 @@ export default function Features() {
                 </div>
               </div>
               {/* Files */}
-              <div className="flex flex-col h-auto p-6 rounded swiper-slide bg-slate-800">
+              <div className="flex flex-col h-auto p-6 rounded swiper-slide bg-[#6366F1] bg-opacity-10">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -129,7 +129,7 @@ export default function Features() {
                   <div className="text-xl font-bold font-hkgrotesk">
                     Streamline Tasks
                   </div>
-                  <div className="mb-9 text-slate-500">
+                  <div className="text-white mb-9">
                     Execute preexisting commands or create your own to perform
                     actions. Combine multiple commands into a single workflow,
                     save them, and apply with one click to any file.
@@ -143,7 +143,7 @@ export default function Features() {
                 </div>
               </div>
               {/* Scalability */}
-              <div className="flex flex-col h-auto p-6 rounded swiper-slide bg-slate-800">
+              <div className="flex flex-col h-auto p-6 rounded swiper-slide bg-[#6366F1] bg-opacity-10">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -163,7 +163,7 @@ export default function Features() {
                   <div className="text-xl font-bold font-hkgrotesk">
                     Personalized Operations
                   </div>
-                  <div className="mb-9 text-slate-500">
+                  <div className="text-white mb-9">
                     Create multiple workspaces for different projects. Utilize a
                     personal AI assistant for chat, management, and support,
                     powered by the latest AI models for seamless efficiency.
@@ -177,7 +177,7 @@ export default function Features() {
                 </div>
               </div>
               {/* Organization */}
-              <div className="flex flex-col h-auto p-6 rounded swiper-slide bg-slate-800">
+              <div className="flex flex-col h-auto p-6 rounded swiper-slide bg-[#6366F1] bg-opacity-10">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -197,7 +197,7 @@ export default function Features() {
                   <div className="text-xl font-bold font-hkgrotesk">
                     No Learning Curve
                   </div>
-                  <div className="mb-[60px] text-slate-500">
+                  <div className="mb-[60px] text-white">
                     Our platform matches user intuition with an intuitive
                     interface featuring recognizable buttons. Includes a
                     built-in 3-step tutorial activated on first login.
@@ -211,7 +211,7 @@ export default function Features() {
                 </div>
               </div>
               {/* Productivity */}
-              <div className="flex flex-col h-auto p-6 rounded swiper-slide bg-slate-800">
+              <div className="flex flex-col h-auto p-6 rounded swiper-slide bg-[#6366F1] bg-opacity-10">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -231,7 +231,7 @@ export default function Features() {
                   <div className="text-xl font-bold font-hkgrotesk">
                     Instant Results
                   </div>
-                  <div className="mb-[60px] text-slate-500">
+                  <div className="mb-[60px] text-white">
                     Run commands and get results in seconds. Easily test
                     workflows and experiment with multiple ideas to find the
                     perfect fit.
@@ -245,7 +245,7 @@ export default function Features() {
                 </div>
               </div>
               {/* More */}
-              <div className="flex flex-col h-auto p-6 rounded swiper-slide bg-slate-800">
+              <div className="flex flex-col h-auto p-6 rounded swiper-slide bg-[#6366F1] bg-opacity-10">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -265,7 +265,7 @@ export default function Features() {
                   <div className="text-xl font-bold font-hkgrotesk">
                     Save Valuable Time
                   </div>
-                  <div className="mb-9 text-slate-500">
+                  <div className="text-white mb-9">
                     Get fast results and more time to grow your business. Simple
                     and technical users achieve the same results. Eliminate
                     browser tab clutter with integrated AI tools.
@@ -282,17 +282,17 @@ export default function Features() {
           </div>
           {/* Arrows */}
           <div className="flex justify-end mt-12 space-x-4">
-            <button className="relative z-20 flex items-center justify-center transition duration-150 ease-in-out border rounded-full carousel-prev w-14 h-14 group border-slate-700 bg-slate-800 hover:bg-slate-700">
+            <button className="relative z-0 flex items-center justify-center transition duration-150 ease-in-out border rounded-full carousel-prev w-14 h-14 group border-[#6366F1] bg-[#6366F1] bg-opacity-40 hover:bg-[#6366F1] hover:opacity-70">
               <span className="sr-only">Previous</span>
               <svg
-                className="w-4 h-4 transition duration-150 ease-in-out fill-slate-400"
+                className="w-4 h-4 transition duration-150 ease-in-out fill-white"
                 viewBox="0 0 16 16"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path d="M6.7 14.7l1.4-1.4L3.8 9H16V7H3.8l4.3-4.3-1.4-1.4L0 8z" />
               </svg>
             </button>
-            <button className="relative z-20 flex items-center justify-center transition duration-150 ease-in-out border rounded-full carousel-next w-14 h-14 group border-slate-700 bg-slate-800 hover:bg-slate-700">
+            <button className="relative z-0 flex items-center justify-center transition duration-150 ease-in-out border rounded-full carousel-next w-14 h-14 group border-[#6366F1] bg-[#6366F1] bg-opacity-40 hover:bg-[#6366F1] hover:opacity-70">
               <span className="sr-only">Next</span>
               <svg
                 className="w-4 h-4 transition duration-150 ease-in-out fill-slate-400"

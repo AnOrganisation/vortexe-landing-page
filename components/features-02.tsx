@@ -37,7 +37,7 @@ export default function Features02() {
             </h2>
           </div>
           {/* Box */}
-          <div className="overflow-hidden rounded bg-slate-800 bg-opacity-60">
+          <div className="overflow-hidden rounded bg-[#6366F1] bg-opacity-10">
             <div className="flex flex-col items-end md:flex-row md:items-start md:justify-between lg:space-x-20">
               <div className="md:min-w-[28rem] p-6 lg:p-10">
                 {/* Filters */}

@@ -230,8 +230,8 @@ export default function Integrations() {
               >
                 <defs>
                   <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="lg-1">
-                    <stop stopColor="#0F172A" stopOpacity="0%" offset="0%" />
-                    <stop stopColor="#0F172A" offset="100%" />
+                    <stop stopColor="#0f0f0f" stopOpacity="0%" offset="0%" />
+                    <stop stopColor="#0f0f0f" offset="100%" />
                   </linearGradient>
                 </defs>
                 <g className="opacity-75 fill-indigo-600" fillRule="evenodd">
@@ -259,7 +259,7 @@ export default function Integrations() {
               aria-hidden="true"
             />
             <div
-              className="relative flex items-center justify-center p-2 bg-slate-800 aspect-square"
+              className="relative flex items-center justify-center p-2 bg-opacity-0 border rounded-md aspect-square border-slate-800"
               data-aos="fade-up"
             >
               {/* Inner lines */}
@@ -277,7 +277,7 @@ export default function Integrations() {
               </div>
             </div>
             <div
-              className="relative flex items-center justify-center p-2 bg-slate-800 aspect-square"
+              className="relative flex items-center justify-center p-2 bg-opacity-0 border rounded-md aspect-square border-slate-800"
               data-aos="fade-up"
               data-aos-delay="100"
             >
@@ -296,7 +296,7 @@ export default function Integrations() {
               </div>
             </div>
             <div
-              className="relative flex items-center justify-center p-2 bg-slate-800 aspect-square"
+              className="relative flex items-center justify-center p-2 bg-opacity-0 border rounded-md aspect-square border-slate-800"
               data-aos="fade-up"
               data-aos-delay="200"
             >
@@ -315,7 +315,7 @@ export default function Integrations() {
               </div>
             </div>
             <div
-              className="relative flex items-center justify-center p-2 bg-slate-800 aspect-square"
+              className="relative flex items-center justify-center p-2 bg-opacity-0 border rounded-md aspect-square border-slate-800"
               data-aos="fade-up"
               data-aos-delay="300"
             >
@@ -334,7 +334,7 @@ export default function Integrations() {
               </div>
             </div>
             <div
-              className="relative flex items-center justify-center p-2 bg-slate-800 aspect-square"
+              className="relative flex items-center justify-center p-2 bg-opacity-0 border rounded-md aspect-square border-slate-800"
               data-aos="fade-up"
               data-aos-delay="400"
             >
@@ -353,7 +353,7 @@ export default function Integrations() {
               </div>
             </div>
             <div
-              className="relative flex items-center justify-center p-2 bg-slate-800 aspect-square"
+              className="relative flex items-center justify-center p-2 bg-opacity-0 border rounded-md aspect-square border-slate-800"
               data-aos="fade-up"
               data-aos-delay="500"
             >
