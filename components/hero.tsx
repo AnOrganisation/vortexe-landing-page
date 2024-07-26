@@ -22,7 +22,7 @@ export default function Hero() {
               data-aos-delay="100"
             >
               Helping small businesses adapt AI with no learning curve and
-              achieve results in 10 seconds
+              achieve results in mere seconds
             </p>
             <div
               className="max-w-xs mx-auto space-y-4 sm:max-w-none sm:inline-flex sm:justify-center sm:space-y-0 sm:space-x-4"
