@@ -39,12 +39,12 @@ export default function Features02() {
                 {/* Content */}
                 <div>
                   <h1
-                    className="mb-6 text-9xl font-hkgrotesk"
+                    className="mb-6 md:text-9xl font-hkgrotesk text-7xl"
                     data-aos="fade-up"
                   >
                     Just <span className="text-[#6366F1]">one click</span>...
                   </h1>
-                  <h3 className="text-7xl font-hkgrotesk">
+                  <h3 className="text-5xl md:text-7xl font-hkgrotesk">
                     That's all you need
                   </h3>
                   <div className="mt-3 ml-1 text-3xl text-slate-500">
@@ -56,7 +56,7 @@ export default function Features02() {
               </div>
               <Image
                 src={FeaturesImage}
-                className="md:max-w-none"
+                className="mx-auto md:max-w-none"
                 width="200"
                 height="100"
                 alt="Feature"
