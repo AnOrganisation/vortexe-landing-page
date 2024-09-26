@@ -17,16 +17,16 @@ export default function Cta() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
           {/* Section header */}
-          <div className="max-w-1xl mx-auto text-center pb-12 md:pb-20" data-aos="fade-up">
-            <h2 className="h2 font-hkgrotesk">Elevate your business with Vortexe AI.</h2>
+          <div className="max-w-2xl mx-auto text-center pb-12 md:pb-20" data-aos="fade-up">
+            <h2 className="h2 font-hkgrotesk">Build your own AI micro-services within seconds.</h2>
           </div>
           {/* Buttons */}
           <div className="text-center">
             <div className="max-w-xs mx-auto sm:max-w-none sm:inline-flex sm:justify-center space-y-4 sm:space-y-0 sm:space-x-4">
               <div data-aos="fade-up" data-aos-delay="100">
-                <Link className="btn text-white bg-indigo-500 hover:bg-indigo-600 w-full shadow-sm group" href="/signup">
+                <Link className="btn text-white bg-transparent border-2 border-white hover:bg-white hover:text-black w-full shadow-sm group rounded-full" href="/signup">
                   Chat with us!{' '}
-                  <span className="tracking-normal text-sky-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
+                  <span className="tracking-normal text-white group-hover:translate-x-0.5 group-hover:text-black transition-transform duration-150 ease-in-out ml-1">
                     -&gt;
                   </span>
                 </Link>

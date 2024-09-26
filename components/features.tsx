@@ -60,12 +60,12 @@ export default function Features() {
       <div className="max-w-6xl px-4 mx-auto sm:px-6">
         <div className="py-12 md:py-20">
           {/* Section header */}
-          <div className="max-w-3xl pb-12 mx-auto text-center md:pb-20">
-            <h1 className="mb-4 h2 font-hkgrotesk">An Intuitive Workspace</h1>
-            <div className="max-w-2xl mx-auto">
-              <p className="text-3xl text-slate-500">
-                Allowing small businesses to streamline the most repetitive
-                tasks, at the click of a button.
+          <div className="max-w-8xl pb-12 mx-auto text-center md:pb-20">
+            <h1 className="mb-6 text-5xl font-hkgrotesk">Building custom AI solutions just got a lot easier.</h1>
+            <div className="max-w-4xl mx-auto">
+              <p className="text-2xl text-slate-300">
+              VortexeAI believes that harnessing the power of AI should be seamless and intuitive for everyone, regardless of technical expertise. Our platform’s 
+              intuitive no-code workflow editor is designed to simplify every step and guide you seamlessly through the entire process—no technical jargon required.
               </p>
             </div>
           </div>
@@ -75,13 +75,13 @@ export default function Features() {
             <div className="swiper-wrapper">
               {/* Carousel items */}
               {/* Workspaces */}
-              <div className="flex flex-col h-auto p-6 rounded swiper-slide bg-[#6366F1] bg-opacity-10">
+              <div className="flex flex-col h-auto p-6 rounded-2xl swiper-slide bg-[#6366F1] bg-opacity-10">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth="1.5"
-                  stroke="#6366F1"
+                  stroke="white"
                   className="w-14 h-14"
                 >
                   <path
@@ -93,12 +93,11 @@ export default function Features() {
 
                 <div className="grow">
                   <div className="text-xl font-bold font-hkgrotesk">
-                    Knowledge Store
+                  AI-Powered Data Actions
                   </div>
                   <div className="text-white mb-9">
-                    Upload and organize your files within different workspaces.
-                    Vortexe securely saves and analyzes your data, providing
-                    intelligent responses to your queries anytime.
+                  Unleash the power of AI to transform your data with precision. Our intuitive interface helps you craft tailored instructions, 
+                  ensuring your AI delivers exceptional results—every time.
                   </div>
                 </div>
                 <div className="text-right">
@@ -109,13 +108,13 @@ export default function Features() {
                 </div>
               </div>
               {/* Files */}
-              <div className="flex flex-col h-auto p-6 rounded swiper-slide bg-[#6366F1] bg-opacity-10">
+              <div className="flex flex-col h-auto p-6 rounded-2xl swiper-slide bg-[#6366F1] bg-opacity-10">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth="1.5"
-                  stroke="#6366F1"
+                  stroke="white"
                   className="w-14 h-14"
                 >
                   <path
@@ -127,12 +126,11 @@ export default function Features() {
 
                 <div className="grow">
                   <div className="text-xl font-bold font-hkgrotesk">
-                    Streamline Tasks
+                  Workflow Customization
                   </div>
                   <div className="text-white mb-9">
-                    Execute preexisting commands or create your own to perform
-                    actions. Combine multiple commands into a single workflow,
-                    save them, and apply with one click to any file.
+                  Chain actions to build customizable workflows for unique outcomes. Manage your workflows at a glance from a dedicated dashboard and edit them in
+                  a workspace.
                   </div>
                 </div>
                 <div className="text-right">
@@ -143,13 +141,13 @@ export default function Features() {
                 </div>
               </div>
               {/* Scalability */}
-              <div className="flex flex-col h-auto p-6 rounded swiper-slide bg-[#6366F1] bg-opacity-10">
+              <div className="flex flex-col h-auto p-6 rounded-2xl swiper-slide bg-[#6366F1] bg-opacity-10">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth="1.5"
-                  stroke="#6366F1"
+                  stroke="white"
                   className="w-14 h-14"
                 >
                   <path
@@ -161,12 +159,10 @@ export default function Features() {
 
                 <div className="grow">
                   <div className="text-xl font-bold font-hkgrotesk">
-                    Personalized Operations
+                    Diverse AI Models
                   </div>
                   <div className="text-white mb-9">
-                    Create multiple workspaces for different projects. Utilize a
-                    personal AI assistant for chat, management, and support,
-                    powered by the latest AI models for seamless efficiency.
+                  Access the most popular AI models like ChatGPT, Claude 3.5, Llama out-of-the-box. Don't know which model to use? No worries, get auto-suggestions for the best AI models suited to each task.
                   </div>
                 </div>
                 <div className="text-right">
@@ -177,13 +173,13 @@ export default function Features() {
                 </div>
               </div>
               {/* Organization */}
-              <div className="flex flex-col h-auto p-6 rounded swiper-slide bg-[#6366F1] bg-opacity-10">
+              <div className="flex flex-col h-auto p-6 rounded-2xl swiper-slide bg-[#6366F1] bg-opacity-10">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth="1.5"
-                  stroke="#6366F1"
+                  stroke="white"
                   className="w-14 h-14"
                 >
                   <path
@@ -195,24 +191,22 @@ export default function Features() {
 
                 <div className="grow">
                   <div className="text-xl font-bold font-hkgrotesk">
-                    No Learning Curve
+                  Multi-Modal AI Workflows
                   </div>
                   <div className="mb-[60px] text-white">
-                    Our platform matches user intuition with an intuitive
-                    interface featuring recognizable buttons. Includes a
-                    built-in 3-step tutorial activated on first login.
+                  Personalize each action within a workflow by picking the most appropriate AI model. No more one-size-fits-all model with generic responses.
                   </div>
                 </div>
                 <div className="text-right"></div>
               </div>
               {/* Productivity */}
-              <div className="flex flex-col h-auto p-6 rounded swiper-slide bg-[#6366F1] bg-opacity-10">
+              <div className="flex flex-col h-auto p-6 rounded-2xl swiper-slide bg-[#6366F1] bg-opacity-10">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth="1.5"
-                  stroke="#6366F1"
+                  stroke="white"
                   className="w-14 h-14"
                 >
                   <path
@@ -224,12 +218,10 @@ export default function Features() {
 
                 <div className="grow">
                   <div className="text-xl font-bold font-hkgrotesk">
-                    Instant Results
+                    Run Automations Your Way
                   </div>
                   <div className="mb-[60px] text-white">
-                    Run commands and get results in seconds. Easily test
-                    workflows and experiment with multiple ideas to find the
-                    perfect fit.
+                  Automate workflows to run based on schedules, specific triggers, or whenever needed, even while you’re away.
                   </div>
                 </div>
                 <div className="text-right">
@@ -240,30 +232,29 @@ export default function Features() {
                 </div>
               </div>
               {/* More */}
-              <div className="flex flex-col h-auto p-6 rounded swiper-slide bg-[#6366F1] bg-opacity-10">
+              <div className="flex flex-col h-auto p-6 rounded-2xl swiper-slide bg-[#6366F1] bg-opacity-10">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth="1.5"
-                  stroke="#6366F1"
+                  stroke="white"
                   className="w-14 h-14"
                 >
                   <path
                     strokeLinecap="round"
-                    stroke-linejoin="round"
+                    strokeLinejoin="round"
                     d="M12 6v12m-3-2.818.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
                   />
                 </svg>
 
                 <div>
                   <div className="text-xl font-bold font-hkgrotesk">
-                    Save Valuable Time
+                  Seamless Connectivity
                   </div>
                   <div className="text-white mb-9">
-                    Get fast results and more time to grow your business. Simple
-                    and technical users achieve the same results. Eliminate
-                    browser tab clutter with integrated AI tools.
+                  Easily choose how you input your data and customize how you receive results. 
+                  From API endpoints to files or pre-integrated platforms, it's all designed to fit your workflow perfectly.
                   </div>
                 </div>
                 <div className="text-right">
@@ -273,10 +264,37 @@ export default function Features() {
                   </a> */}
                 </div>
               </div>
+              {/* More */}
+              <div className="flex flex-col h-auto p-6 rounded-2xl swiper-slide bg-[#6366F1] bg-opacity-10">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  stroke="white"
+                  className="w-14 h-14"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M12 6v12m-3-2.818.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                  />
+                </svg>
+
+                <div>
+                  <div className="text-xl font-bold font-hkgrotesk">
+                  Marketplace
+                  </div>
+                  <div className="text-white mb-9">
+                  Share your workflow on the marketplace for a one-time fee and start earning. Turn your expertise into passive 
+                  income while receiving reviews from users to help you grow and refine your offerings.
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           {/* Arrows */}
-          <div className="flex justify-end mt-12 space-x-4">
+          <div className="flex justify-center mt-12 space-x-20">
             <button className="relative z-0 flex items-center justify-center transition duration-150 ease-in-out border rounded-full carousel-prev w-14 h-14 group border-[#6366F1] bg-[#6366F1] bg-opacity-40 hover:bg-[#6366F1] hover:opacity-70">
               <span className="sr-only">Previous</span>
               <svg
@@ -290,7 +308,7 @@ export default function Features() {
             <button className="relative z-0 flex items-center justify-center transition duration-150 ease-in-out border rounded-full carousel-next w-14 h-14 group border-[#6366F1] bg-[#6366F1] bg-opacity-40 hover:bg-[#6366F1] hover:opacity-70">
               <span className="sr-only">Next</span>
               <svg
-                className="w-4 h-4 transition duration-150 ease-in-out fill-slate-400"
+                className="w-4 h-4 transition duration-150 ease-in-out fill-white"
                 viewBox="0 0 16 16"
                 xmlns="http://www.w3.org/2000/svg"
               >

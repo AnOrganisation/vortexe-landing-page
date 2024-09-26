@@ -29,7 +29,7 @@ export default function Footer() {
           <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
             <li>
               <a
-                className="flex items-center justify-center text-indigo-500 transition duration-150 ease-in-out hover:text-slate-300"
+                className="flex items-center justify-center text-white transition duration-150 ease-in-out hover:text-slate-300"
                 href="https://x.com/VortexeAI"
                 target="_blank"
                 aria-label="Twitter"
@@ -45,7 +45,7 @@ export default function Footer() {
             </li>
             <li className="ml-2">
               <a
-                className="flex items-center justify-center text-indigo-500 transition duration-150 ease-in-out hover:text-slate-300"
+                className="flex items-center justify-center text-white transition duration-150 ease-in-out hover:text-slate-300"
                 href="https://www.instagram.com/vortexe.ai/"
                 target="_blank"
                 aria-label="Instagram"
@@ -61,7 +61,7 @@ export default function Footer() {
             </li>
             <li className="ml-2">
               <a
-                className="flex items-center justify-center h-8 text-indigo-500 transition duration-150 ease-in-out hover:text-slate-300"
+                className="flex items-center justify-center h-8 text-white transition duration-150 ease-in-out hover:text-slate-300"
                 href="https://www.tiktok.com/@vortexe.ai?is_from_webapp=1&sender_device=pc"
                 target="_blank"
                 aria-label="TikTok"
@@ -78,7 +78,7 @@ export default function Footer() {
             </li>
             <li className="ml-2">
               <a
-                className="flex items-center justify-center h-8 text-indigo-500 transition duration-150 ease-in-out hover:text-slate-300"
+                className="flex items-center justify-center h-8 text-white transition duration-150 ease-in-out hover:text-slate-300"
                 href="mailto:vortexeai@outlook.com"
                 aria-label="Email"
               >
