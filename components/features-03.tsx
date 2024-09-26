@@ -33,24 +33,20 @@ export default function Features02() {
           {/* Section header */}
           <div className="max-w-3xl pb-12 mx-auto text-center md:pb-20"></div>
           {/* Box */}
-          <div className="overflow-hidden">
+          <div className="overflow-hidden rounded-2xl bg-[#ffffff] bg-opacity-10 border-white border-2 border-opacity-20">
             <div className="flex flex-col items-end md:flex-row md:items-start md:justify-between lg:space-x-20">
               <div className="md:min-w-[28rem] p-6 lg:p-10">
                 {/* Content */}
                 <div>
                   <h1
-                    className="mb-6 md:text-9xl font-hkgrotesk text-7xl"
+                    className="mb-6 md:text-4xl font-hkgrotesk text-7xl"
                     data-aos="fade-up"
                   >
-                    Just <span className="text-[#6366F1]">one click</span>...
+                  <span className="text-white">Multi-Modal Workflows</span>
                   </h1>
-                  <h3 className="text-5xl md:text-7xl font-hkgrotesk">
-                    That's all you need
-                  </h3>
-                  <div className="mt-3 ml-1 text-3xl text-slate-500">
-                    If you know how to left click your mouse and know what a
-                    button is, you can integrate AI into your small business
-                    using VortexeAI.
+                  <div className="mt-3 ml-1 text-2xl text-slate-300">
+                    Create custom actions powered by different AI models and organize them into 
+                    a single automated workflow that can be connected to anything.
                   </div>
                 </div>
               </div>
@@ -61,6 +57,46 @@ export default function Features02() {
                 height="100"
                 alt="Feature"
               />
+            </div>
+          </div>
+          {/* Box 2 */}
+          <div className="flex md:justify-between">
+            <div className="mt-4 overflow-auto rounded-2xl bg-[#ffffff] bg-opacity-10 border-white border-2 border-opacity-20">
+              <div className="flex flex-col items-start md:flex-row md:items-start md:justify-start lg:space-x-20">
+                <div className="p-6 lg:p-10">
+                  {/* Content */}
+                  <div>
+                    <h1
+                      className="mb-6 md:text-2xl font-hkgrotesk"
+                      data-aos="fade-up"
+                    >
+                    <span className="text-white">Seamless Integrations</span>
+                    </h1>
+                    <div className="max-w-sm mt-3 text-[18px] text-slate-300">
+                    Effortlessly link with any platform, whether through direct API connections or through our out of the box integrations in Vortexe, 
+                    enabling you to import data for workflows or export results seamlessly.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="mt-4 overflow-auto rounded-2xl bg-[#ffffff] bg-opacity-10 border-white border-2 border-opacity-20">
+              <div className="flex flex-col items-start md:flex-row md:items-start md:justify-start lg:space-x-20">
+                <div className="p-6 lg:p-10">
+                  {/* Content */}
+                  <div>
+                    <h1
+                      className="mb-6 md:text-2xl font-hkgrotesk"
+                      data-aos="fade-up"
+                    >
+                    <span className="text-white">Chat with Vortexe</span>
+                    </h1>
+                    <div className="max-w-sm mt-3 text-[18px] text-slate-300">
+                      Ask questions and get assistance with workflows instantly. Vortexe is your personal assistance, ready to help you whenever.
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

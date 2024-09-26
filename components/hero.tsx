@@ -6,23 +6,38 @@ import HeroImage from "@/public/images/Workspace_HeroImage.png";
 export default function Hero() {
   return (
     <section className="relative">
-      <div className="relative max-w-6xl px-4 mx-auto sm:px-6">
+      <div className="relative max-w-7xl px-4 mx-auto sm:px-6">
         <div className="pt-32 md:pt-40">
           {/* Hero content */}
           <div className="max-w-5xl mx-auto text-center">
             <h1
-              className="mb-6 text-7xl md:text-9xl font-hkgrotesk"
+              className="mb-10 text-xl md:text-7xl font-hkgrotesk"
               data-aos="fade-up"
             >
-              Vortexe<span className="text-[#6366F1]">AI</span>
+              Transform Your Workflow:
+            </h1>
+            <h1
+              className="mb-10 text-xl md:text-7xl font-hkgrotesk"
+              data-aos="fade-up"
+            >
+              <span style={{
+                  background: 'linear-gradient(90deg, #6366F1, #63f1d2)',
+                  WebkitBackgroundClip: 'text',
+                  color: 'transparent'
+              }}
+            >
+              Build, Use, Sell
+              </span>
+
+
             </h1>
             <p
-              className="mb-10 text-4xl text-[#6366F1] px-14 "
+              className="mb-10 text-3xl text-[#ffffff] px-14 "
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              Helping small businesses adapt AI with no learning curve and
-              achieve results in mere seconds
+              A no-code, AI workflow editor and marketplace where you can  seamlessly design, automate, and sell custom AI solutions to solve 
+              real world business problems. 
             </p>
             <div
               className="max-w-xs mx-auto space-y-4 sm:max-w-none sm:inline-flex sm:justify-center sm:space-y-0 sm:space-x-4"
@@ -31,11 +46,11 @@ export default function Hero() {
             >
               <div>
                 <Link
-                  className="w-full text-white bg-indigo-500 shadow-sm btn hover:bg-indigo-600 group"
+                  className="w-full text-white border-2 border-white bg-transparent shadow-sm btn hover:bg-white hover:text-black group rounded-full"
                   href="/signup"
                 >
                   Chat with us!{" "}
-                  <span className="tracking-normal text-sky-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
+                  <span className="tracking-normal text-white group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1 group-hover:text-black">
                     -&gt;
                   </span>
                 </Link>
@@ -63,6 +78,7 @@ export default function Hero() {
               height={518}
               alt="Hero"
             />
+            
           </div>
         </div>
       </div>

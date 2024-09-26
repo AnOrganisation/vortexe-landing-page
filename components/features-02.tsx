@@ -53,11 +53,11 @@ export default function Features02() {
           {/* Section header */}
           <div className="max-w-3xl pb-12 mx-auto text-center md:pb-20">
             <h2 className="h2 font-hkgrotesk">
-              Features to help you simplify your daily tasks{" "}
+              Simplicity at its core{" "}
             </h2>
           </div>
           {/* Box */}
-          <div className="overflow-hidden rounded bg-[#6366F1] bg-opacity-10">
+          <div className="overflow-hidden rounded-2xl bg-[#6366F1] bg-opacity-10 border-2 border-[#6366F1] border-opacity-20">
             <div className="flex flex-col items-end md:flex-row md:items-start md:justify-between lg:space-x-20">
               <div className="md:min-w-[28rem] p-6 lg:p-10">
                 {/* Filters */}
@@ -66,81 +66,64 @@ export default function Features02() {
                     <button
                       className={`btn-sm px-3 py-1 shadow-sm rounded-full m-1.5 ${
                         category === "1"
-                          ? "text-white bg-indigo-500"
-                          : "text-slate-300 bg-slate-700 hover:bg-slate-600 border-slate-600"
+                          ? "text-black bg-white"
+                          : "text-slate-300 bg-transparent border-white border-1 hover:bg-slate-600"
                       }`}
                       onClick={() => setCategory("1")}
                     >
-                      Workflows
+                      Build
                     </button>
                     <button
                       className={`btn-sm px-3 py-1 shadow-sm rounded-full m-1.5 ${
                         category === "2"
-                          ? "text-white bg-indigo-500"
-                          : "text-slate-300 bg-slate-700 hover:bg-slate-600 border-slate-600"
+                          ? "text-black bg-white"
+                          : "text-slate-300 bg-transparent border-white border-1 hover:bg-slate-600"
                       }`}
                       onClick={() => setCategory("2")}
                     >
-                      Personal Assistant
+                      Use
                     </button>
                     <button
                       className={`btn-sm px-3 py-1 shadow-sm rounded-full m-1.5 ${
                         category === "3"
-                          ? "text-white bg-indigo-500"
-                          : "text-slate-300 bg-slate-700 hover:bg-slate-600 border-slate-600"
+                          ? "text-black bg-white"
+                          : "text-slate-300 bg-transparent border-white border-1 hover:bg-slate-600"
                       }`}
                       onClick={() => setCategory("3")}
                     >
-                      Workspace
+                      Sell
                     </button>
                   </div>
                 </div>
                 {/* Content */}
                 <div>
                   <div className={`${category !== "1" && "hidden"}`}>
-                    <h3 className="mb-2 h3 font-hkgrotesk">Streamline Tasks</h3>
+                    <h3 className="mb-2 h3 font-hkgrotesk">Easy Workflow Building</h3>
                     <div className="text-lg text-slate-350">
-                      Automate tedious tasks with Vortexe AI, designed for small
-                      businesses. No need to learn AI or choose the right
-                      tools—we do it for you. Simply select tasks like crafting
-                      marketing pitches, generating personalized emails,
-                      scheduling content creation, or simply summarizing
-                      documentation. Our unified workspace lets you harness AI
-                      workflows to streamline operations, allowing you to focus
-                      on what you do best, be it content creation or product
-                      development.
+                    Building a workflow with Vortexe is as simple as playing with Legos. Our user-friendly 
+                    interface guides you through each step clearly and intuitively, 
+                    ensuring you can easily understand and execute every part of the 
+                    process without any technical jargon.
                     </div>
                   </div>
                   <div className={`${category !== "2" && "hidden"}`}>
                     <h3 className="mb-2 h3 font-hkgrotesk">
-                      Your Time is Valuable
+                      Task Automation
                     </h3>
                     <div className="text-lg text-slate-350">
-                      Your time is valuable, and Vortexe AI ensures you make the
-                      most of it. Our workspace organizes all your files in one
-                      place, making it easy to manage and access your data. With
-                      the Vortexe assistant, you can ask questions about your
-                      uploaded data, turning it into your personal intelligent
-                      database. Need to know if you've created content on a
-                      specific subject? Just ask Vortexe, and it will search
-                      through your files to provide the answers you need.
-                      Simplify your workflow and focus on what matters most with
-                      Vortexe AI.
+                    Streamline your business operations with our intuitive platform, where automating tasks like 
+                    event-triggered email campaigns and on-demand report generation is as straightforward as tapping a button. 
+                    Manage all your workflows effortlessly in one place—start, stop, or pause them at your convenience, allowing you to focus on what truly matters. 
                     </div>
                   </div>
                   <div className={`${category !== "3" && "hidden"}`}>
                     <h3 className="mb-2 h3 font-hkgrotesk">
-                      Personalized Operations
+                      Make a Profit
                     </h3>
                     <div className="text-lg text-slate-350">
-                      Transform your workflow with Vortexe AI's customizable
-                      workspace. Tailor it to fit your business needs by saving
-                      files and utilizing AI tools directly within the platform.
-                      Create multiple workspaces for different projects and use
-                      our tagging system to keep track of all your data in one
-                      spot. Say goodbye to endless folder searches and
-                      streamline your operations with ease. Customize, organize,
-                      and optimize your business with Vortexe AI.
+                    The purpose of the Marketplace is to provide high-quality workflows to 
+                    Vortexe users for their businesses or development projects. Every workflow
+                    will be crafted by individuals who are experts in the related fields. 
                     </div>
                   </div>
                 </div>
