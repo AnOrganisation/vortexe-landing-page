@@ -34,9 +34,9 @@ export default function Header({ nav = true }: { nav?: boolean }) {
                     Sign in
                   </Link>
                 </li>
-                <li className="ml-3">
+                <li className="ml-3 w-full sm:w-auto">
                   <Link
-                    className="w-full text-white border-2 border-white bg-transparent shadow-sm btn-sm hover:bg-white group rounded-full hover:text-black"
+                    className="flex items-center w-full sm:w-auto text-xs sm:text-sm md:text-base text-white border-2 border-white bg-transparent shadow-sm btn-sm hover:bg-white group rounded-full hover:text-black whitespace-nowrap"
                     href="/signup"
                   >
                     Get Started{" "}

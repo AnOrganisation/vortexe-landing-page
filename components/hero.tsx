@@ -11,13 +11,13 @@ export default function Hero() {
           {/* Hero content */}
           <div className="max-w-5xl mx-auto text-center">
             <h1
-              className="mb-10 text-xl md:text-7xl font-hkgrotesk"
+              className="mb-6 sm:mb-8 md:mb-10 text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-hkgrotesk"
               data-aos="fade-up"
             >
-              Transform Your Workflow:
+              Transform Your Workflow
             </h1>
             <h1
-              className="mb-10 text-xl md:text-7xl font-hkgrotesk"
+              className="mb-6 sm:mb-8 md:mb-10 text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-hkgrotesk"
               data-aos="fade-up"
             >
               <span style={{
@@ -32,7 +32,7 @@ export default function Hero() {
 
             </h1>
             <p
-              className="mb-10 text-3xl text-[#ffffff] px-14 "
+              className="mb-6 sm:mb-8 md:mb-10 sm:text-lg md:text-xl lg:text-2xl text-[#ffffff] px-4 sm:px-8 md:px-14"
               data-aos="fade-up"
               data-aos-delay="100"
             >

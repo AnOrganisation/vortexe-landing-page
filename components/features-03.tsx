@@ -33,68 +33,58 @@ export default function Features02() {
           {/* Section header */}
           <div className="max-w-3xl pb-12 mx-auto text-center md:pb-20"></div>
           {/* Box */}
-          <div className="overflow-hidden rounded-2xl bg-[#ffffff] bg-opacity-10 border-white border-2 border-opacity-20">
+          <div className="overflow-hidden rounded-2xl bg-[#ffffff] bg-opacity-10 border-white border-2 border-opacity-20 mb-4">
             <div className="flex flex-col items-end md:flex-row md:items-start md:justify-between lg:space-x-20">
               <div className="md:min-w-[28rem] p-6 lg:p-10">
                 {/* Content */}
                 <div>
                   <h1
-                    className="mb-6 md:text-4xl font-hkgrotesk text-7xl"
+                    className="mb-6 text-3xl sm:text-4xl md:text-5xl font-hkgrotesk"
                     data-aos="fade-up"
                   >
                   <span className="text-white">Multi-Modal Workflows</span>
                   </h1>
-                  <div className="mt-3 ml-1 text-2xl text-slate-300">
+                  <div className="mt-3 text-sm sm:text-base md:text-lg lg:text-xl text-slate-300">
                     Create custom actions powered by different AI models and organize them into 
                     a single automated workflow that can be connected to anything.
                   </div>
                 </div>
               </div>
-              <Image
+              {/* <Image
                 src={FeaturesImage}
                 className="mx-auto md:max-w-none"
                 width="200"
                 height="100"
                 alt="Feature"
-              />
+              /> */}
             </div>
           </div>
           {/* Box 2 */}
-          <div className="flex md:justify-between">
-            <div className="mt-4 overflow-auto rounded-2xl bg-[#ffffff] bg-opacity-10 border-white border-2 border-opacity-20">
-              <div className="flex flex-col items-start md:flex-row md:items-start md:justify-start lg:space-x-20">
-                <div className="p-6 lg:p-10">
-                  {/* Content */}
-                  <div>
-                    <h1
-                      className="mb-6 md:text-2xl font-hkgrotesk"
-                      data-aos="fade-up"
-                    >
-                    <span className="text-white">Seamless Integrations</span>
-                    </h1>
-                    <div className="max-w-sm mt-3 text-[18px] text-slate-300">
-                    Effortlessly link with any platform, whether through direct API connections or through our out of the box integrations in Vortexe, 
-                    enabling you to import data for workflows or export results seamlessly.
-                    </div>
-                  </div>
+          <div className="flex flex-col md:flex-row md:justify-between space-y-4 md:space-y-0 md:space-x-4">
+            <div className="w-full md:w-1/2 overflow-auto rounded-2xl bg-[#ffffff] bg-opacity-10 border-white border-2 border-opacity-20">
+              <div className="p-4 sm:p-6 lg:p-8">
+                <h2
+                  className="mb-3 sm:mb-4 text-2xl sm:text-3xl font-hkgrotesk text-white"
+                  data-aos="fade-up"
+                >
+                  Seamless Integrations
+                </h2>
+                <div className="mt-3 text-sm sm:text-base md:text-lg text-slate-300">
+                  Effortlessly link with any platform, whether through direct API connections or through our out of the box integrations in Vortexe, 
+                  enabling you to import data for workflows or export results seamlessly.
                 </div>
               </div>
             </div>
-            <div className="mt-4 overflow-auto rounded-2xl bg-[#ffffff] bg-opacity-10 border-white border-2 border-opacity-20">
-              <div className="flex flex-col items-start md:flex-row md:items-start md:justify-start lg:space-x-20">
-                <div className="p-6 lg:p-10">
-                  {/* Content */}
-                  <div>
-                    <h1
-                      className="mb-6 md:text-2xl font-hkgrotesk"
-                      data-aos="fade-up"
-                    >
-                    <span className="text-white">Chat with Vortexe</span>
-                    </h1>
-                    <div className="max-w-sm mt-3 text-[18px] text-slate-300">
-                      Ask questions and get assistance with workflows instantly. Vortexe is your personal assistance, ready to help you whenever.
-                    </div>
-                  </div>
+            <div className="w-full md:w-1/2 overflow-auto rounded-2xl bg-[#ffffff] bg-opacity-10 border-white border-2 border-opacity-20">
+              <div className="p-4 sm:p-6 lg:p-8">
+                <h2
+                  className="mb-3 sm:mb-4 text-2xl sm:text-3xl font-hkgrotesk text-white"
+                  data-aos="fade-up"
+                >
+                  Chat with Vortexe
+                </h2>
+                <div className="mt-3 text-sm sm:text-base md:text-lg text-slate-300">
+                  Ask questions and get assistance with workflows instantly. Vortexe is your personal assistant, ready to help you whenever.
                 </div>
               </div>
             </div>
