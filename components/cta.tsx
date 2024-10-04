@@ -15,10 +15,10 @@ export default function Cta() {
         <Image src={Illustration} className="max-w-none" alt="Features 01 Illustration" />
       </div>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20">
+        <div className="py-8 sm:py-12 md:py-20">
           {/* Section header */}
-          <div className="max-w-2xl mx-auto text-center pb-12 md:pb-20" data-aos="fade-up">
-            <h2 className="h2 font-hkgrotesk">Build your own AI micro-services within seconds.</h2>
+          <div className="max-w-2xl mx-auto text-center pb-8 sm:pb-12 md:pb-16" data-aos="fade-up">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-hkgrotesk font-bold">Build your own AI micro-services within seconds.</h2>
           </div>
           {/* Buttons */}
           <div className="text-center">

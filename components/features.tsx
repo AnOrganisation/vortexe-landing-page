@@ -61,9 +61,11 @@ export default function Features() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-8xl pb-12 mx-auto text-center md:pb-20">
-            <h1 className="mb-6 text-5xl font-hkgrotesk">Building custom AI solutions just got a lot easier.</h1>
+            <h1 className="mb-4 sm:mb-6 md:mb-8 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-hkgrotesk">
+              Building custom AI solutions just got a lot easier.
+            </h1>
             <div className="max-w-4xl mx-auto">
-              <p className="text-2xl text-slate-300">
+              <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-slate-300">
               VortexeAI believes that harnessing the power of AI should be seamless and intuitive for everyone, regardless of technical expertise. Our platform’s 
               intuitive no-code workflow editor is designed to simplify every step and guide you seamlessly through the entire process—no technical jargon required.
               </p>

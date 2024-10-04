@@ -2,19 +2,19 @@ export default function Faqs() {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20">
+        <div className="py-8 sm:py-12 md:py-20">
           {/* Section header */}
-          <div className="pb-12 md:pb-20">
-            <h2 className="h2 font-hkgrotesk">FAQs</h2>
+          <div className="pb-8 sm:pb-12 md:pb-20">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-hkgrotesk font-bold">FAQs</h2>
           </div>
           {/* Columns */}
           <div className="md:flex md:space-x-12 space-y-8 md:space-y-0">
             {/* Column */}
             <div className="w-full md:w-1/2 space-y-8">
               {/* Item */}
-              <div className="space-y-2">
-                <h4 className="text-xl font-hkgrotesk font-medium">I don’t have time to learn a new product or am intimidated to learn a new product?</h4>
-                <p className="text-slate-300">
+              <div className="space-y-2 sm:space-y-3">
+                <h4 className="text-lg sm:text-xl font-hkgrotesk font-medium">I don’t have time to learn a new product or am intimidated to learn a new product?</h4>
+                <p className="text-sm sm:text-base text-slate-300">
                 With VortexeAI, you don't need to worry about learning a new product or feeling intimidated. Our platform is designed with simplicity in mind, 
                 offering a zero-learning curve experience. You can perform tasks and get results within seconds, 
                 with just a few clicks. Our intuitive interface and automated workflows eliminate the need for 
@@ -22,9 +22,9 @@ export default function Faqs() {
                 </p>
               </div>
               {/* Item */}
-              <div className="space-y-2">
-                <h4 className="text-xl font-hkgrotesk font-medium">I’ve use automated platforms in the past and they require a lot of training, how is this different?</h4>
-                <p className="text-slate-300">
+              <div className="space-y-2 sm:space-y-3">
+                <h4 className="text-lg sm:text-xl font-hkgrotesk font-medium">I’ve use automated platforms in the past and they require a lot of training, how is this different?</h4>
+                <p className="text-sm sm:text-base text-slate-300">
                 VortexeAI is designed for immediate use with no training required. If you can upload a document and click a button, 
                 you're all set to start using our platform right away! 
                 Unlike other platforms, we offer a streamlined, minimalist interface. Our goal isn’t to replace entire jobs 
@@ -32,25 +32,25 @@ export default function Faqs() {
                 </p>
               </div>
               {/* Item */}
-              <div className="space-y-2">
-                <h4 className="text-xl font-hkgrotesk font-medium">Is this a free service?</h4>
-                <p className="text-slate-300">
+              <div className="space-y-2 sm:space-y-3">
+                <h4 className="text-lg sm:text-xl font-hkgrotesk font-medium">Is this a free service?</h4>
+                <p className="text-sm sm:text-base text-slate-300">
                 You have a 7 day free trial which includes 1 GB storage and the use of all actions and workflows. 
                 After your trial is over you can contact us to get a customized quote based on your needs.
                 </p>
               </div>
               {/* Item */}
-              <div className="space-y-2">
-                <h4 className="text-xl font-hkgrotesk font-medium">How do I get started?</h4>
-                <p className="text-slate-300">
+              <div className="space-y-2 sm:space-y-3">
+                <h4 className="text-lg sm:text-xl font-hkgrotesk font-medium">How do I get started?</h4>
+                <p className="text-sm sm:text-base text-slate-300">
                 Setup a call with us, its our pleasure to help you get started with our platform and 
                 discover its potential. You can also email us at vortexeai@outlook.com.
                 </p>
               </div>
               {/* Item */}
               <div className="space-y-2">
-                <h4 className="text-xl font-hkgrotesk font-medium">Will I loose my data if I cancel my subscription?</h4>
-                <p className="text-slate-300">
+                <h4 className="text-lg sm:text-xl font-hkgrotesk font-medium">Will I loose my data if I cancel my subscription?</h4>
+                <p className="text-sm sm:text-base text-slate-300">
                 No worries, we will offer you the chance to export your data all into one zip folder to save on your local drive. 
                 You will have 30 days to do this, then after 30 days your data will be erased from our services.
                 </p>
