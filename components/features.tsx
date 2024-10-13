@@ -60,14 +60,18 @@ export default function Features() {
       <div className="max-w-6xl px-4 mx-auto sm:px-6">
         <div className="py-12 md:py-20">
           {/* Section header */}
-          <div className="max-w-8xl pb-12 mx-auto text-center md:pb-20">
-            <h1 className="mb-4 sm:mb-6 md:mb-8 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-hkgrotesk">
-              Building custom AI solutions just got a lot easier.
+          <div className="pb-12 mx-auto text-center max-w-8xl md:pb-20">
+            <h1 className="mb-4 text-2xl sm:mb-6 md:mb-8 sm:text-3xl md:text-4xl lg:text-5xl font-hkgrotesk">
+              Test your ideas with near-realistic results before committing
+              resources, so you can find the perfect fit.
             </h1>
             <div className="max-w-4xl mx-auto">
               <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-slate-300">
-              VortexeAI believes that harnessing the power of AI should be seamless and intuitive for everyone, regardless of technical expertise. Our platform’s 
-              intuitive no-code workflow editor is designed to simplify every step and guide you seamlessly through the entire process—no technical jargon required.
+                VortexeAI believes that harnessing the power of AI should be
+                seamless and intuitive for everyone, regardless of technical
+                expertise. Our platform’s intuitive no-code workflow editor is
+                designed to simplify every step and guide you seamlessly through
+                the entire process—no technical jargon required.
               </p>
             </div>
           </div>
@@ -95,19 +99,14 @@ export default function Features() {
 
                 <div className="grow">
                   <div className="text-xl font-bold font-hkgrotesk">
-                  AI-Powered Data Actions
+                    Fast Deployment
                   </div>
                   <div className="text-white mb-9">
-                  Unleash the power of AI to transform your data with precision. Our intuitive interface helps you craft tailored instructions, 
-                  ensuring your AI delivers exceptional results—every time.
+                    Deploy directly from the app by using our output API
+                    endpoint and embedding it anywhere you want
                   </div>
                 </div>
-                <div className="text-right">
-                  {/* <a className="inline-flex items-center font-medium text-indigo-500 transition duration-150 ease-in-out group" href="#0">
-                    Learn More{' '}
-                    <span className="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
-                  </a> */}
-                </div>
+                <div className="text-right"></div>
               </div>
               {/* Files */}
               <div className="flex flex-col h-auto p-6 rounded-2xl swiper-slide bg-[#6366F1] bg-opacity-10">
@@ -128,11 +127,12 @@ export default function Features() {
 
                 <div className="grow">
                   <div className="text-xl font-bold font-hkgrotesk">
-                  Workflow Customization
+                    Customized Workflows
                   </div>
                   <div className="text-white mb-9">
-                  Chain actions to build customizable workflows for unique outcomes. Manage your workflows at a glance from a dedicated dashboard and edit them in
-                  a workspace.
+                    Chain actions to build customizable workflows for unique
+                    outcomes. Manage your workflows at a glance from a dedicated
+                    dashboard and edit them in a workspace.
                   </div>
                 </div>
                 <div className="text-right">
@@ -164,7 +164,10 @@ export default function Features() {
                     Diverse AI Models
                   </div>
                   <div className="text-white mb-9">
-                  Access the most popular AI models like ChatGPT, Claude 3.5, Llama out-of-the-box. Don't know which model to use? No worries, get auto-suggestions for the best AI models suited to each task.
+                    Access the most popular AI models like ChatGPT, Claude 3.5,
+                    Llama out-of-the-box. Don't know which model to use? No
+                    worries, get auto-suggestions for the best AI models suited
+                    to each task.
                   </div>
                 </div>
                 <div className="text-right">
@@ -193,10 +196,12 @@ export default function Features() {
 
                 <div className="grow">
                   <div className="text-xl font-bold font-hkgrotesk">
-                  Multi-Modal AI Workflows
+                    Multi-Modal AI Workflows
                   </div>
                   <div className="mb-[60px] text-white">
-                  Personalize each action within a workflow by picking the most appropriate AI model. No more one-size-fits-all model with generic responses.
+                    Personalize each action within a workflow by picking the
+                    most appropriate AI model. No more one-size-fits-all model
+                    with generic responses.
                   </div>
                 </div>
                 <div className="text-right"></div>
@@ -223,7 +228,8 @@ export default function Features() {
                     Run Automations Your Way
                   </div>
                   <div className="mb-[60px] text-white">
-                  Automate workflows to run based on schedules, specific triggers, or whenever needed, even while you’re away.
+                    Automate workflows to run based on schedules, specific
+                    triggers, or whenever needed, even while you’re away.
                   </div>
                 </div>
                 <div className="text-right">
@@ -252,11 +258,13 @@ export default function Features() {
 
                 <div>
                   <div className="text-xl font-bold font-hkgrotesk">
-                  Seamless Connectivity
+                    Seamless Connectivity
                   </div>
                   <div className="text-white mb-9">
-                  Easily choose how you input your data and customize how you receive results. 
-                  From API endpoints to files or pre-integrated platforms, it's all designed to fit your workflow perfectly.
+                    Easily choose how you input your data and customize how you
+                    receive results. From API endpoints to files or
+                    pre-integrated platforms, it's all designed to fit your
+                    workflow perfectly.
                   </div>
                 </div>
                 <div className="text-right">
@@ -285,11 +293,13 @@ export default function Features() {
 
                 <div>
                   <div className="text-xl font-bold font-hkgrotesk">
-                  Marketplace
+                    Marketplace
                   </div>
                   <div className="text-white mb-9">
-                  Share your workflow on the marketplace for a one-time fee and start earning. Turn your expertise into passive 
-                  income while receiving reviews from users to help you grow and refine your offerings.
+                    Share your workflow on the marketplace for a one-time fee
+                    and start earning. Turn your expertise into passive income
+                    while receiving reviews from users to help you grow and
+                    refine your offerings.
                   </div>
                 </div>
               </div>
